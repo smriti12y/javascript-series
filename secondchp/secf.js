@@ -43,13 +43,76 @@ console.log("a % b =", a%b);
 
    //Logicsl opt
 
-   let r = 6;
-   let t = 3;
+//    let r = 6;
+//    let t = 3;
 
-   let cond1 = r < t;
-   let cond2 = r ==6;
+//    let cond1 = r < t;
+//    let cond2 = r ==6;
 
 
 
-   console.log("cond1 && cond1=", cond1 && cond2);
+//    console.log("cond1 && cond1=", cond1 && cond2);
+
+//conditional Sataement
+
+
+
+// let age = 18;
+
+// if(age>=18){
+//     console.log("you can vote");
+// }
+
+// if (age< 18){
+//     console.log("you cannot vote");
+// }
+
+//if esle statement
+
+let mode = "light";
+let color;
+
+if (mode=="dark"){
+    color = "black";
+}
+else{
+    color="white";
+}
+
+console.log(color);
+
+//even or odd 
+ 
+let num = 4;
+
+if(num % 2 ===0)
+{
+    console.log(num,"even");
+}
+else{
+    console.log(num,"odd");
+}
+
+//else-if statement
+let modee = "dark";
+let colorr;
+
+if (modee=="dark"){
+    colorr = "black";
+}
+else if (modee==="blue"){
+    colorr="blue";
+}else {
+    colorr="white";
+}
+console.log(colorr);
+
+//ternary operator special 
+let age = 23;
+
+  let result = age<=18 ? "adult": "not adult";
+
+  console.log(result)
+
+
 
