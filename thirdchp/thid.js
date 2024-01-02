@@ -73,23 +73,37 @@ for (let num= 0; num <=100; num++){
 //strings
 
 
- let str = "Smriti Pandey";
+//  let str = "Smriti Pandey";
 
-console.log(str); 
+// console.log(str); 
 
-//temeplate string
+// //temeplate string
 
-let obj = {
-    item : "pen",
-    price:200,
+// let obj = {
+//     item : "pen",
+//     price:200,
 
-};
+// };
 
-let output = `the cost of ${obj.item} is ${obj.price} rupee`;
-console.log(output);
+// let output = `the cost of ${obj.item} is ${obj.price} rupee`;
+// console.log(output);
 
-//Escape character
+// //Escape character
 
-let  newstr ="apna\tcollege";
-console.log(
-newstr.length);
+// let  newstr ="apna\tcollege";
+// console.log(
+// newstr.length);
+
+
+//strings method
+
+let str = "ApnaCollege";
+str = str.toLowerCase();
+console.log(str);
+
+//str.slice(star,end?) 
+
+//str1.concat(str2)
+//str.replace(searchVal,newVal)
+
+//str.charAt(idx)
