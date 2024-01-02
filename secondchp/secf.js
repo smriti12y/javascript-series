@@ -83,15 +83,15 @@ console.log(color);
 
 //even or odd 
  
-let num = 4;
+// let num = 4;
 
-if(num % 2 ===0)
-{
-    console.log(num,"even");
-}
-else{
-    console.log(num,"odd");
-}
+// if(num % 2 ===0)
+// {
+//     console.log(num,"even");
+// }
+// else{
+//     console.log(num,"odd");
+// }
 
 //else-if statement
 let modee = "dark";
@@ -113,6 +113,5 @@ let age = 23;
   let result = age<=18 ? "adult": "not adult";
 
   console.log(result)
-
 
 
