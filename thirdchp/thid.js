@@ -28,11 +28,11 @@ do{
 
 //for-of loop 
 
-let str = "Apna College";
+// let str = "Apna College";
 
-for (let t of str){
-    console.log("t=",t);
-}
+// for (let t of str){
+//     console.log("t=",t);
+// }
 
 //for in loop
 
@@ -61,10 +61,35 @@ for (let num= 0; num <=100; num++){
 
 //questn 2
  
-let gameNum= 35;
-let userNum = prompt("Guess the game number :");
+// let gameNum= 35;
+// let userNum = prompt("Guess the game number :");
 
-while (gameNum!=userNum){
-    userNum= prompt("You entered wrong number, Guess again:");
-}
-console.log("congratilation , you entered the right number");
+// while (gameNum!=userNum){
+//     userNum= prompt("You entered wrong number, Guess again:");
+// }
+// console.log("congratilation , you entered the right number");
+
+
+//strings
+
+
+ let str = "Smriti Pandey";
+
+console.log(str); 
+
+//temeplate string
+
+let obj = {
+    item : "pen",
+    price:200,
+
+};
+
+let output = `the cost of ${obj.item} is ${obj.price} rupee`;
+console.log(output);
+
+//Escape character
+
+let  newstr ="apna\tcollege";
+console.log(
+newstr.length);
