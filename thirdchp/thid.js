@@ -50,3 +50,21 @@ for(let k in student){
 }
 
 
+//practice question of loops
+
+/****print all even number from 0 to 100 */
+
+for (let num= 0; num <=100; num++){
+    if(num%2 === 0)
+    console.log("num=",num);
+}
+
+//questn 2
+ 
+let gameNum= 35;
+let userNum = prompt("Guess the game number :");
+
+while (gameNum!=userNum){
+    userNum= prompt("You entered wrong number, Guess again:");
+}
+console.log("congratilation , you entered the right number");
