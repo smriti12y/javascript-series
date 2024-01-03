@@ -32,4 +32,20 @@ nums.forEach((num) =>{
 })
 
 
-  
+//map arr
+
+let num = [456,7,8,9];
+
+num.map((val)=>{
+  console.log(val);
+})
+
+//filter method 
+
+let arr = [2,3,5,4,6,9,66,24,45,71,11];
+
+let oddArr = arr.filter((val)=>{
+    return val % 2 !=0;
+});
+
+  console.log(oddArr);
