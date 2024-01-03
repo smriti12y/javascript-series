@@ -85,3 +85,17 @@ let dc_heroes =["superman","batman"];
 //   arr.splice(2,2,104,304);
 // to add Element
 arr.splice(3,0,222);
+
+//practice
+/****create an array to store companies->"Bloomberg", "Microsoft","Uber","Google","IBM","Netflix" 
+ * a. remove the first company from the arr
+ * b.remove uber and add ola
+ * .c add amazon at the end
+*/
+
+let companies=["Microsoft","Uber","Google","IBM","Netflix" ];
+
+// companies.shift();
+// companies.splice(0,1,Uber);
+
+companies.push("Amazon");
