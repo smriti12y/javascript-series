@@ -107,3 +107,7 @@ console.log(str);
 //str.replace(searchVal,newVal)
 
 //str.charAt(idx)
+
+
+//practice qust
+// 
