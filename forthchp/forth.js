@@ -14,37 +14,74 @@
 
 //loop over an array
 
-let cities=["patna","kolkata","delhi","pune"]
+// let cities=["patna","kolkata","delhi","pune"]
 
-for (let city of cities){
-    console.log(city.toUpperCase());
-}
+// for (let city of cities){
+//     console.log(city.toUpperCase());
+// }
 
-//practice question
-/****for a given array with marks of student ->[85,98,67,34,45,23] */
+// //practice question
+// /****for a given array with marks of student ->[85,98,67,34,45,23] */
 
-let marks = [85,98,67,34,45,23];
+// let marks = [85,98,67,34,45,23];
 
-let sum =0;
+// let sum =0;
 
-for(let val of marks){
-        sum += val;
+// for(let val of marks){
+//         sum += val;
 
-}
+// }
 
-let avg = sum /marks.length;
-console.log(`avg markd of the class=${avg}`)
+// // let avg = sum /marks.length;
+// console.log(`avg markd of the class=${avg}`)
 
 //q2 
 /****for a given arr with prices of 5 items ->[250,645,300,900,50] all item have an offer of 10% off on them .change the arry to store finalprice after apllying offer. */
 
-let items = [250,645,300,900,50];
+// let items = [250,645,300,900,50];
 
-let i = 0;
-for (let val of items ){
-    console.log(`value at index ${i}=${val}`);
-    let offer=val/10;
-    items[i]= items[i]- offer;
-    console.log(`value after offer =${items[i]}`);
-    i++;
-}
+// let i = 0;
+// for (let val of items ){
+//     console.log(`value at index ${i}=${val}`);
+//     let offer=val/10;
+//     items[i]= items[i]- offer;
+//     console.log(`value after offer =${items[i]}`);
+//     i++;
+// }
+
+
+//array methods
+//one of the example here
+//push()
+
+let fooditems= ["potato","peas","tomato","apple","mango"];
+ 
+
+fooditems.push("chips","burger","paneer");
+
+console.log(fooditems);
+
+//concat() methods
+
+let marvel_heroes = ["thor","spider","ironman",];
+let dc_heroes =["superman","batman"];
+
+  let heroes = marvel_heroes.concat(dc_heroes);
+
+  console.log(heroes);
+
+  //slice () method
+
+  let flowers = ["rose","sunflower","lilly","mariegold"];
+
+  console.log(flowers);
+
+  console.log(flowers.slice(2,4));
+
+  //splice ()
+
+  let arr = [1,2,3,4,5,6,7];
+
+//   arr.splice(2,2,104,304);
+// to add Element
+arr.splice(3,0,222);
