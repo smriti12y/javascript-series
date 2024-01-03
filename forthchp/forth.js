@@ -54,37 +54,37 @@
 //one of the example here
 //push()
 
-let fooditems= ["potato","peas","tomato","apple","mango"];
+// let fooditems= ["potato","peas","tomato","apple","mango"];
  
 
-fooditems.push("chips","burger","paneer");
+// fooditems.push("chips","burger","paneer");
 
-console.log(fooditems);
+// console.log(fooditems);
 
 //concat() methods
 
-let marvel_heroes = ["thor","spider","ironman",];
-let dc_heroes =["superman","batman"];
+// let marvel_heroes = ["thor","spider","ironman",];
+// let dc_heroes =["superman","batman"];
 
-  let heroes = marvel_heroes.concat(dc_heroes);
+//   let heroes = marvel_heroes.concat(dc_heroes);
 
-  console.log(heroes);
+//   console.log(heroes);
 
-  //slice () method
+//   //slice () method
 
-  let flowers = ["rose","sunflower","lilly","mariegold"];
+//   let flowers = ["rose","sunflower","lilly","mariegold"];
 
-  console.log(flowers);
+//   console.log(flowers);
 
-  console.log(flowers.slice(2,4));
+//   console.log(flowers.slice(2,4));
 
-  //splice ()
+//   //splice ()
 
-  let arr = [1,2,3,4,5,6,7];
+//   let arr = [1,2,3,4,5,6,7];
 
 //   arr.splice(2,2,104,304);
 // to add Element
-arr.splice(3,0,222);
+// arr.splice(3,0,222);
 
 //practice
 /****create an array to store companies->"Bloomberg", "Microsoft","Uber","Google","IBM","Netflix" 
@@ -93,9 +93,10 @@ arr.splice(3,0,222);
  * .c add amazon at the end
 */
 
-let companies=["Microsoft","Uber","Google","IBM","Netflix" ];
+// let companies=["Microsoft","Uber","Google","IBM","Netflix" ];
 
-// companies.shift();
-// companies.splice(0,1,Uber);
+// // companies.shift();
+// // companies.splice(0,1,Uber);
 
-companies.push("Amazon");
+// companies.push("Amazon");
+
