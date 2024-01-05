@@ -1,8 +1,18 @@
-Attributes 
+//Attributes 
 
-let div = document.querySelector("div");
+// let div = document.querySelector("div");
 
-console.log(div);
+// console.log(div);
 
-let id=div.getAttribute("id");
-console.log(id);
+// let id=div.getAttribute("id");
+// console.log(id);
+
+
+//for inserting elements in js 
+
+ 
+
+ 
+ let newBtn = document.createElement("button");
+ newBtn.textContent = "Click me";
+ console.log(newBtn);
