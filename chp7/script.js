@@ -13,9 +13,9 @@
  
 
  
- let newBtn = document.createElement("button");
+  let newBtn = document.createElement("button");
  newBtn.textContent = "Click me";
- console.log(newBtn);
+  console.log(newBtn);
 
  let div= document.querySelector("div");
- div.after(newBtn);
+  div.after(newBtn);
