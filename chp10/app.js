@@ -43,16 +43,19 @@ SmritiSimmi6.__proto__= employee;
 //classes 
 
 class ToyotaCar{
-    start(){
-        console.log("start");
-    }
-    start(){
-        console.log("start");
-    }
-    setBrand(brand){
+    constructor(brand){
+        console.log("creating new object");
         this.brand=brand;
     }
+    start(){
+        console.log("start");
+    }
+    start(){
+        console.log("start");
+    }
+    
 }
 
 let fortuner= new ToyotaCar();
-fortuner.setBrand("fortuner");
+let lexus= new ToyotaCar();
+
