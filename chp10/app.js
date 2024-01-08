@@ -59,3 +59,23 @@ class ToyotaCar{
 let fortuner= new ToyotaCar();
 let lexus= new ToyotaCar();
 
+//inheritanc e 
+
+class Person{
+    eat(){
+        console.log("eat");
+    }
+    sleep(){
+        console.log("sleep");
+    }
+}
+
+class Engineer  extends Person{
+    work(){
+        console.log("solve prloblem,build something");
+    }
+
+}
+
+let simmiObj= new Engineer();
+
