@@ -39,3 +39,20 @@ SmritiSimmi3.__proto__= employee;
 SmritiSimmi4.__proto__= employee;
 SmritiSimmi5.__proto__= employee;
 SmritiSimmi6.__proto__= employee;
+
+//classes 
+
+class ToyotaCar{
+    start(){
+        console.log("start");
+    }
+    start(){
+        console.log("start");
+    }
+    setBrand(brand){
+        this.brand=brand;
+    }
+}
+
+let fortuner= new ToyotaCar();
+fortuner.setBrand("fortuner");
