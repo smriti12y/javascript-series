@@ -62,6 +62,9 @@ let lexus= new ToyotaCar();
 //inheritanc e 
 
 class Person{
+   constructor(){
+    this.species="homo sapeins "
+   }
     eat(){
         console.log("eat");
     }
@@ -71,11 +74,19 @@ class Person{
 }
 
 class Engineer  extends Person{
+    constructor(branch)
+    {
+        super();
+        this.branch =branch;
+
+    }
+
+
     work(){
         console.log("solve prloblem,build something");
     }
 
 }
 
-let simmiObj= new Engineer();
+let simmiObj= new Engineer("cse");
 
