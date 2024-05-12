@@ -35,7 +35,10 @@ console.log(marks);
     age: 25,
     isStudent: true
   };
-  console.log(person.name);
+
+  person.name='amresh';
+  person.age='34';
+  console.log(person);
 
   const student5 = {
     fullName: "smriti",
@@ -46,12 +49,48 @@ console.log(marks);
           return 95;
         },
     getFriend: ["shanu","bitu"],
-      getSubjects: {
-        subject1:"science", //create a nested object fro subj which includes marks subject names 
-        subject2:"maths"
-      }
+      
+         //create a nested object fro subj which includes marks subject names
+          subjectLists :{
+          subject1: {
+            subName: 'Maths',
+            marks: 45
+          },
+          subject2: {
+            subName: 'GK',
+            marks: 78
+          },
+          subject3: {
+            subName: 'Science',
+            marks: 89
+          }
+        }
   
-  };
+        };
   //india profile usinh every dta types 
+
+        let indiaProfile ={
+          capital:'New Delhi',
+          Population: "1.3 billion", 
+          
+
+
+
+
+
+
+
+
+
+
+        }
+
+
+
+
+
+
+
+
   // update very property of object of every of property
 // create profile od 5students in array using for loop
